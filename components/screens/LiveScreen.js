@@ -61,7 +61,7 @@ export default LiveScreen = () => {
                         <LiveGameBadge>
                             <Text>Live</Text>
                             <AntDesign name="eyeo" size={20} color="#ffffff" />
-                            <Text>{item.live}</Text>
+                            <Text>{Math.floor(Math.random() * 1000) + 1}</Text>
                         </LiveGameBadge>
                     </LiveGameOver>
                 </LiveGameContainer>

@@ -52,5 +52,23 @@ export default games =[
         ],
         backgroundColor: "#636e72",
         live:220
-    }
+    },
+    {
+        id:4,
+        title: "God Of War",
+        teaser: "Agora na Sony Store - God Of War",
+        description: "Sed sollicitudin mauris sit amet odio congue vehicula. Curabitur eu consequat metus, ac accumsan felis. Nulla facilisi. Duis finibus cursus justo et cursus. Pellentesque dignissim eu urna nec auctor. Sed et lobortis ipsum, mattis faucibus augue. Cras faucibus pharetra turpis eu bibendum. Praesent lobortis, est lobortis faucibus efficitur, urna diam hendrerit diam, quis egestas tortor augue id nulla. Nulla dictum eleifend odio. Nunc consectetur felis a massa fermentum, nec vestibulum erat molestie. Donec accumsan facilisis diam ac varius. Maecenas lacinia lorem et finibus pretium. Nam nisi elit, hendrerit at enim et, ornare finibus justo. Mauris lobortis dui quis risus feugiat tempor. Nam sed erat eget sapien scelerisque pharetra. Suspendisse quis enim tempus, luctus dui ut, dictum arcu.",
+        rating: 3.5,
+        category: ["Ação", "RPG", "Multiplayer"],
+        age: "12+",
+        cover: require("./src/cover/god_of_war.png"),
+        screenshots:[
+            require("./src/cover/god_of_war_1.png"),
+            require("./src/cover/god_of_war_2.png"),
+            require("./src/cover/god_of_war_3.png"),
+            require("./src/cover/god_of_war_4.png"),
+        ],
+        backgroundColor: "#836FFF",
+        live:220
+    },
 ];
